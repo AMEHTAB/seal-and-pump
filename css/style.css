@@ -186,3 +186,11 @@ img {
     color: #393185;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
+main section .industry-banner-Img {
+    height: 100vh;
+    width: 100%;
+}
+main section .industry-banner-Img img {
+    height: 100%;
+    width: fit-content;
+}
