@@ -171,7 +171,7 @@ a {
     text-decoration: none;
 }
 .navbar-brand img {
-    height: 70px;
+    height: 100px;
 }
 img {
     vertical-align: middle;
@@ -211,6 +211,9 @@ img {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 @media (max-width:767px) {
+    .navbar-brand img {
+        height: 70px;
+    }
     .container {
         display: block;
     }
